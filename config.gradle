@@ -1,0 +1,28 @@
+ext{
+    //通过此文件统一管理 module中所有依赖包，和版本
+    android =[
+            compileSdkVersion : 23,
+            buildToolsVersion :"23.0.3",
+            applicationId :"com.btn.wk.brokethenews",
+            targetSdkVersion :23,
+            versionCode :1,
+            versionName :"1.0",
+            minSdkVersion :15
+    ]
+
+    dependencies=[
+            //我自己项目的依赖
+            "support_v7"     :'com.android.support:appcompat-v7:23.2.1',
+            "support_v4"     :'com.android.support:support-v4:24.0.0-alpha1',
+            "junit"          :'junit:junit:4.12',
+            "percent"        :'com.android.support:percent:22.2.0',
+            "dagger"         :'com.google.dagger:dagger:2.1',
+            "gson"           :'com.google.code.gson:gson:2.6.2',
+            "RxAndroid"      :'io.reactivex:rxandroid:1.1.0',
+            "volley"         :'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+            //demo项目的依赖
+
+    ]
+
+
+}
